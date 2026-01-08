@@ -23,7 +23,7 @@
 
 from fastapi import FastAPI, Request
 from fastapi.responses import HTMLResponse,JSONResponse,RedirectResponse
-from supabase import create_client
+from supabase import create_client # type: ignore
 
 db_url="https://tafdsjfjdppwfffkbtqy.supabase.co"
 db_api="sb_publishable_sre0-TYPssYKIQeuJxjIWw_B6UE8b9_"
